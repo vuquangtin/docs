@@ -36,7 +36,7 @@ Có rất nhiều rủi ro có thể gặp phải trong quá trình xác thực:
 Cách đơn giản nhất để tránh lỗ hổng bảo mật web này là sử dụng một framework. Trong trường hợp bạn muốn tự tạo ra bộ xác thực hoặc mã hóa cho riêng mình, hãy nghĩ đến những rủi ro mà bạn sẽ gặp phải và tự cân nhắc kĩ trước khi thực hiện.
 
 ## 3. Lỗ hổng XSS (Cross Site Scripting)
-<img src='images/XSS-Attack.gif'/>
+<img src='../images/XSS-Attack.gif'/>
 
 Lỗ hổng XSS (Cross-scite Scripting) là một lỗ hổng rất phổ biến. Kẻ tấn công chèn các đoạn mã JavaScript vào ứng dụng web. Khi đầu vào này không được lọc, chúng sẽ được thực thi mã độc trên trình duyệt của người dùng. Kẻ tấn công có thể lấy được cookie của người dùng trên hệ thông hoặc lừa người dùng đến các trang web độc hại.
 
