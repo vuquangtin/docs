@@ -50,7 +50,11 @@ $ java -X
 
 -Xmixed           mixed mode execution (default)
 -Xint             interpreted mode execution only
--Xbootclasspath:  set search path for bootstrap classes and resources -Xbootclasspath/a:                   append to end of bootstrap class path -Xbootclasspath/p:                   prepend in front of bootstrap class path -Xnoclassgc       disable class garbage collection -Xloggc:    log GC status to a file with time stamps
+-Xbootclasspath:  set search path for bootstrap classes and resources 
+	-Xbootclasspath/a:                   append to end of bootstrap class path 
+	-Xbootclasspath/p:                   prepend in front of bootstrap class path 
+	-Xnoclassgc       disable class garbage collection 
+	-Xloggc:    log GC status to a file with time stamps
 -Xbatch           disable background compilation
 -Xms              set initial Java heap size
 -Xmx              set maximum Java heap size
@@ -58,7 +62,13 @@ $ java -X
 -Xprof            output cpu profiling data
 -Xfuture          enable strictest checks, anticipating future default
 -Xrs              reduce use of OS signals by Java/VM (see documentation)
--Xdock:name=      override default application name displayed in dock -Xdock:icon=                   override default icon displayed in dock -Xcheck:jni       perform additional checks for JNI functions -Xshare:off	      do not attempt to use shared class data -Xshare:auto      use shared class data if possible (default) -Xshare:on	      require using shared class data, otherwise fail.  The -X options are non-standard and subject to change without notice. 
+-Xdock:name=      override default application name displayed in dock 
+	-Xdock:icon=                   override default icon displayed in dock 
+	-Xcheck:jni       perform additional checks for JNI functions 
+	-Xshare:off	      do not attempt to use shared class data 
+	-Xshare:auto      use shared class data if possible (default) 
+	-Xshare:on	      require using shared class data, otherwise fail.  
+	The -X options are non-standard and subject to change without notice. 
 ```
 
 From that list, the command-line arguments specifically related to Java application memory use are:
