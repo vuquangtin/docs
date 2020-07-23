@@ -6,5 +6,5 @@
 * []()
 
 # Design Patterns
-
+mau thiet ke
 # Concurrency
