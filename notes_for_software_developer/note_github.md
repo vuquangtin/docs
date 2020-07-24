@@ -630,6 +630,7 @@ Sẽ cập nhật và bổ sung sau
 
 Giả sử bạn đang theo dõi repo của tôi và thấy có một số chỗ cần sửa đổi, bạn có thể comment ý kiến của mình vào Repo đó. Sau đó người quản trị sẽ xem xét, thay đổi và trả lời bạn.
 
+
 Để làm việc này bạn cần vào repo đó, click vào `Issue`. Ví dụ như hình sau:
 
 <img src=../images/notes_for_software_developer/note_github/img_023.png>
