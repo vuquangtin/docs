@@ -10,7 +10,7 @@
 
 ### Mô hình tổng quan
 
-![](../images/notes_for_software_developer/note_git/img_0001.png)
+![](../../images/notes_for_software_developer/note_git/img_0001.png)
 
 ### Điểm giống và khác giữa git và các hệ thống quản lý code
 #### 1. Giống:
@@ -43,7 +43,7 @@ Repo có 2 cấu trúc dữ liệu chính:
 
 > Tất cả dữ liệu của Repo đèu được chứa trong thư mục bạn đang làm việc dưới dạng folder ẩn có tên là .git
 
-![](../images/notes_for_software_developer/note_git/img_0002.png)
+![](../../images/notes_for_software_developer/note_git/img_0002.png)
 
 ## Working Tree và Index
 
@@ -52,7 +52,7 @@ Thư mục được đặt trong sự quản lý của Git mà mọi người đ
 Và trên Git, giữa repository và working tree tồn tại một nơi gọi là index. Index là nơi để chuẩn bị cho việc commit lên repository.
 
 
-![](../images/notes_for_software_developer/note_git/img_0003.png)
+![](../../images/notes_for_software_developer/note_git/img_0003.png)
 
 
 ## Remote repository và local repository
@@ -61,7 +61,7 @@ Git được phân thành 2 loại là remote repository và local repository:
 - Remote repository: Là repository để chia sẻ giữa nhiều người và bố trí trên server chuyên dụng.
 - Local repository: Là repository bố trí trên máy của bản thân mình, dành cho một người dùng sử dụng
 
-![](../images/notes_for_software_developer/note_git/img_0004.png)
+![](../../images/notes_for_software_developer/note_git/img_0004.png)
 
 ## Nhánh (Branch)
 > Tính năng nổi bật của git là nhánh.
@@ -70,12 +70,12 @@ Với git, việc quản lý nhánh rất dễ dàng. Mỗi nhánh trong Git g�
 
 > Nhánh master là nhánh “mặc định” khi bạn tạo một repository. Thông thường là nhánh chính của ứng dụng.
 
-![](../images/notes_for_software_developer/note_git/img_0005.png)
+![](../../images/notes_for_software_developer/note_git/img_0005.png)
 
 ## Trộn (Merge)
 Trộn source từ một nhánh khác vào nhánh hiện tại.
 
-![](../images/notes_for_software_developer/note_git/img_0006.png)
+![](../../images/notes_for_software_developer/note_git/img_0006.png)
 
 Lưu ý:
 
@@ -92,7 +92,7 @@ Lưu ý:
 
 Để giải quyết mâu thuẫn bạn phải dùng “tay không” để sữa các xung đột này. Bạn chỉ việc nhìn vào file bị conflict và tự quyết định dòng code nào giữ lại, dòng nào xóa bỏ.
 
-![](../images/notes_for_software_developer/note_git/img_0007.png)
+![](../../images/notes_for_software_developer/note_git/img_0007.png)
 
 ## Commit
 Thao tác ghi lại việc thêm/thay đổi file hay thư mục vào repository thì sẽ thực hiện thao tác gọi là `Commit`.
@@ -101,8 +101,8 @@ Khi thực hiện commit, trong repository sẽ tạo ra commit (hoặc revision
 
 Commit này đang được chứa tại repository, các commit nối tiếp với nhau theo thứ tự thời gian. Bằng việc lần theo commit này từ trạng thái mới nhất thì có thể biết được lịch sử thay đổi trong quá khứ hoặc nội dung thay đổi đó.
 
-![](../images/notes_for_software_developer/note_git/img_0008.png)
-![](../images/notes_for_software_developer/note_git/img_0009.png)
+![](../../images/notes_for_software_developer/note_git/img_0008.png)
+![](../../images/notes_for_software_developer/note_git/img_0009.png)
 
 ## Git Remote
 Ứng dụng trong trường hợp làm việc với nhiều repo cùng 1 thời điểm
@@ -198,7 +198,7 @@ git clone [repo link]
 ```
 > Mỗi khi tạo 1 Repo trên Linux sẽ nhận được 1 Repo link riêng
 
-![](../images/notes_for_software_developer/note_git/img_0010.png)
+![](../../images/notes_for_software_developer/note_git/img_0010.png)
 
 __Commit và update Remote Repo__
 
@@ -241,7 +241,7 @@ Git bổ sung thêm một lựa chọn:
 
 Khi `commit` tập tin thì tập tin đó phải nằm trong Staging Area. Một tập tin khi nằm trong Staging Area sẽ có trạng thái là Stagged (xem thêm ở dưới).
 
-![](../images/notes_for_software_developer/note_git/img_0011.png)
+![](../../images/notes_for_software_developer/note_git/img_0011.png)
 
 Để đưa file vào Staging Area, sử dụng lệnh:
 
@@ -274,7 +274,7 @@ __Git có hai loại trạng thái chính:__
 
 - Untracked – Là tập tin không muốn làm việc với nó trong Git.
 
-![](../images/notes_for_software_developer/note_git/img_0012.png)
+![](../../images/notes_for_software_developer/note_git/img_0012.png)
 
 __Untracked__
 
@@ -378,7 +378,7 @@ Thao tác `fetch` kiểm tra các thay đổi mã nguồn trên remote repositor
 
 Fetch được xem là phương pháp kiểm tra thay đổi trên remote repository.
 
-![](../images/notes_for_software_developer/note_git/img_0013.png)
+![](../../images/notes_for_software_developer/note_git/img_0013.png)
 
 ## Git pull
 Sử dụng để update lại branch hiện tại với các thay đổi mới trên remote repository.
@@ -387,15 +387,15 @@ Khi thực hiện pull, thao merge sẽ tự động diễn ra, update nội dun
 
 __Trước khi pull__
 
-![](../images/notes_for_software_developer/note_git/img_0014.png)
+![](../../images/notes_for_software_developer/note_git/img_0014.png)
 
 __Sau khi pull__
 
-![](../images/notes_for_software_developer/note_git/img_0015.png)
+![](../../images/notes_for_software_developer/note_git/img_0015.png)
 
 ## Mô hình tổng quan so sánh git fetch vs git pull
 
-![](../images/notes_for_software_developer/note_git/img_0016.png)
+![](../../images/notes_for_software_developer/note_git/img_0016.png)
 ## 4. Git log và undo
 ### Xem lịch sử với git log
 __Xem lịch sử commit:__
@@ -668,7 +668,7 @@ Khi khởi tạo repository hoặc clone một repository, sẽ có một nhánh
 
 > Đây cũng chính là tham số khi ta push lên repo theo cách đơn giản: `git push origin master`
 
-![](../images/notes_for_software_developer/note_git/img_0017.png)
+![](../../images/notes_for_software_developer/note_git/img_0017.png)
 
 VD:
 
@@ -939,7 +939,7 @@ To https://github.com/MasterNetworkTLU/test-git-1.git
  * [new branch]      test_ui -> test_ui
 ```
 
-![](../images/notes_for_software_developer/note_git/img_0018.png)
+![](../../images/notes_for_software_developer/note_git/img_0018.png)
 ## 7. Rebase - Merge
 ### Đặt vấn đề
 Trong Git, có hai cách chính để tích hợp các thay đổi từ nhánh này vào nhánh khác:
@@ -950,7 +950,7 @@ Trong Git, có hai cách chính để tích hợp các thay đổi từ nhánh n
 Giả sử, ta bắt đầu checkout một topic branch có tên là `feature` để xây dựng chức năng mới cho hệ thống, trong khi đó một thành viên khác của team đã cập nhật thêm những commit mới vào `integration branch`. Để đơn giản, chúng ta sẽ lấy luôn nhánh master làm integration branch.
 
 
-![](../images/notes_for_software_developer/note_git/img_0019.png)
+![](../../images/notes_for_software_developer/note_git/img_0019.png)
 
 Tình huống đặt ra là những commit mới ở nhánh master thì có liên quan đến chức năng mà nhóm đang thực hiện. Để tích hợp những commit đó vào nhánh feature, ta có thể thực hiện theo 2 cách: merge hoặc rebase.
 
@@ -969,7 +969,7 @@ Gộp 2 câu lệnh làm 1:
 git merge master feature
 ```
 
-![](../images/notes_for_software_developer/note_git/img_0020.png)
+![](../../images/notes_for_software_developer/note_git/img_0020.png)
 
 Sau khi thực hiện, một `commit merge` mới sẽ xuất hiện ở lịch sử commit của nhánh `feature`, giống như một mối nối để ghép lại lịch sử của cả 2 nhánh:
 
@@ -985,7 +985,7 @@ git rebase master
 
 Thao tác này sẽ đưa toàn bộ những commit mới tạo ở nhánh `feature` nối tiếp vào "ngọn" của nhánh `master`, nhưng thay vì sử dụng một commit merge, nó sẽ __viết lại lịch sử của project bằng cách tạo ra những commit mới ứng với mỗi commit ban đầu của nhánh feature__
 
-![](../images/notes_for_software_developer/note_git/img_0021.png)
+![](../../images/notes_for_software_developer/note_git/img_0021.png)
 
 Lợi ích chính của việc rebase là có lịch sử commit rõ ràng, dễ theo dõi hơn. Đầu tiên, nó sẽ giúp loại bỏ những commit không cần thiết như khi sử dụng git merge. `rebase` giúp tạo ra lịch sử commit có dạng tuyến tính, xuyên suốt project từ khi bắt đầu cho đến hiện tại. Khi đó chúng ta sẽ dễ dàng điều hướng, kiểm tra lịch sử project với những câu lệnh như git log, git bisect.
 

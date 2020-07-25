@@ -278,7 +278,7 @@ Các repo là những nơi tôi phân loại, lưu trữ những thứ bên trê
 
 **Ba trạng thái của một repo:**
 
-<img src=../images/notes_for_software_developer/note_github/img_001.png>
+<img src=../../images/notes_for_software_developer/note_github/img_001.png>
 
 Như hình trên bạn có thể thấy có 3 điểm cần lưu ý:
 
@@ -359,7 +359,7 @@ copy đoạn mã này
 
 Truy cập đường dẫn sau https://github.com/settings/ssh (đảm bảo bạn đã đăng nhập vào github), chọn Add SSH key, đặt tên cho key này tại `Title` và paste nội dung vừa copy vào ô `Key`
 
-<img src=../images/notes_for_software_developer/note_github/img_002.png>
+<img src=../../images/notes_for_software_developer/note_github/img_002.png>
 
 Lúc này bạn đã có thể commit lên github tại máy local mà không cần nhập username và password.
 
@@ -372,7 +372,7 @@ Cài đặt bình thường, yêu cầu phải có .NET 4.5
 
 Giao diện của chương trình:
 
-<img src=../images/notes_for_software_developer/note_github/img_003.png>
+<img src=../../images/notes_for_software_developer/note_github/img_003.png>
 
 Thêm tài khoản Github:
 
@@ -380,7 +380,7 @@ Thêm tài khoản Github:
 
 - Tại mục Configure git thêm Tên và email của mình
 
-<img src=../images/notes_for_software_developer/note_github/img_004.png>
+<img src=../../images/notes_for_software_developer/note_github/img_004.png>
 
 Click Update
 
@@ -396,9 +396,9 @@ Click Update
 
 Tạo một repo mới trên trang github.com
 
-<img src=../images/notes_for_software_developer/note_github/img_005.png>
+<img src=../../images/notes_for_software_developer/note_github/img_005.png>
 
-<img src=../images/notes_for_software_developer/note_github/img_006.png>
+<img src=../../images/notes_for_software_developer/note_github/img_006.png>
 
 <a name="212clone"></a>
 ##### 2.1.2. Clone
@@ -421,7 +421,7 @@ hoặc: `git clone https://github.com/ducnc92/demo1.git /opt/demo` để clone v
 
 Để lấy các link SSH, HTTPS này ta làm như sau: Click vào các hyperlink HTTPS hoặc SSH rồi click Copy to clipboard.
 
-<img src=../images/notes_for_software_developer/note_github/img_007.png>
+<img src=../../images/notes_for_software_developer/note_github/img_007.png>
 
 Ở đây tôi sử dụng lệnh `git clone git@github.com:ducnc92/demo1.git`
 
@@ -485,11 +485,11 @@ Lúc này các thay đổi của bạn đã được lưu lại trên máy cục
 
 => nhập passphrase (nếu bạn đặt passphrase ở mục 1.1.) với phương pháp clone ssh hoặc nhập username, password nếu clone bằng https
 
-<img src=../images/notes_for_software_developer/note_github/img_008.png>
+<img src=../../images/notes_for_software_developer/note_github/img_008.png>
 
 Lúc này trở lại trang github.com và xem `repo script` lúc đầu sẽ thấy các commit của ta đã được đẩy lên.
 
-<img src=../images/notes_for_software_developer/note_github/img_009.png>
+<img src=../../images/notes_for_software_developer/note_github/img_009.png>
 
 Một cách khác nếu bạn không muốn thực hiện clone về máy như bước trên thì bạn có thể làm như sau:
 
@@ -539,26 +539,26 @@ Tạo repo bằng phần mềm Github
 
 - Click vào dấu cộng, chọn tab Create, đặt tên và chọn đường dẫn cho repo mới
 
-<img src=../images/notes_for_software_developer/note_github/img_010.png>
+<img src=../../images/notes_for_software_developer/note_github/img_010.png>
 
 - Tuy nhiên repo mới sinh ra mới chỉ có ở máy trạm, tại mục `Other`. Chọn chuột phải vào repo đó và chọn `Open in Explorer` để sửa nội dung của repo này.
 
-<img src=../images/notes_for_software_developer/note_github/img_011.png>
+<img src=../../images/notes_for_software_developer/note_github/img_011.png>
 
 - Sau khi chỉnh sửa xong, để đẩy repo đó lên github.com ta click vào `Publish this repository` và thực hiện như hình sau. Chú ý cần chọn Organization đặt repo này.
 
-<img src=../images/notes_for_software_developer/note_github/img_012.png>
+<img src=../../images/notes_for_software_developer/note_github/img_012.png>
 
 <a name="222clone"></a>
 ##### 2.2.2. Clone
 
 Click vào dấu cộng, chọn tab Clone, lựa chọn tổ chức mong muốn và chọn repo cần clone
 
-<img src=../images/notes_for_software_developer/note_github/img_013.png>
+<img src=../../images/notes_for_software_developer/note_github/img_013.png>
 
 Để chỉnh sửa nội dung của repo này ta chọn chuột phải vào nó và chọn `Open in Explorer`
 
-<img src=../images/notes_for_software_developer/note_github/img_014.png>
+<img src=../../images/notes_for_software_developer/note_github/img_014.png>
 
 Lúc đó chương trình Windows Explorer sẽ mở ra thư mục chứa repo của github, bạn có thể chỉnh sửa các file trong này, tạo xóa thư mục,... một cách bình thường.
 
@@ -567,13 +567,13 @@ Lúc đó chương trình Windows Explorer sẽ mở ra thư mục chứa repo c
 
 Trở lại với chương trình Github ta sẽ thấy dòng `uncommited changes` tại repo ta vừa sửa. Bạn hãy điền vào đó comment và ấn `commit to master`
 
-<img src=../images/notes_for_software_developer/note_github/img_015.png>
+<img src=../../images/notes_for_software_developer/note_github/img_015.png>
 
 Lúc này sự thay đổi của bạn với mã nguồn đã được ghi lại trên máy local, để đồng bộ nó lên server github bạn hãy ấn vào biểu tượng `Sync` ở góc trên cùng bên phải.
 
 Sau khi đồng bộ xong, quay trở lại repo trên trang github.com.
 
-<img src=../images/notes_for_software_developer/note_github/img_016.png>
+<img src=../../images/notes_for_software_developer/note_github/img_016.png>
 
 Để đồng bộ những thay đổi trên github.com về máy local (pull) ta cũng click vào biểu tượng `Sync` như bên trên.
 
@@ -587,13 +587,13 @@ Sau khi đồng bộ xong, quay trở lại repo trên trang github.com.
 
 - Đặt tên và email cho tổ chức
 
-<img src=../images/notes_for_software_developer/note_github/img_017.png>
+<img src=../../images/notes_for_software_developer/note_github/img_017.png>
 
 Tại mục `Choose the organization’s plan` chọn Open Source để miễn phí, nhưng lúc này các Repo trong tổ chức sẽ là public.
 
 - Mời các thành viên cho tổ chức
 
-<img src=../images/notes_for_software_developer/note_github/img_018.png>
+<img src=../../images/notes_for_software_developer/note_github/img_018.png>
 
 Lúc này vào trang cá nhân của bạn sẽ thấy tại mục Organizations có tổ chức mới vừa tạo. Để cấu hình tổ chức này ta click thẳng vào nó.
 
@@ -601,9 +601,9 @@ Lúc này vào trang cá nhân của bạn sẽ thấy tại mục Organizations
 
 Ở đây tôi sẽ tạo một team mới như hình sau:
 
-<img src=../images/notes_for_software_developer/note_github/img_019.png>
+<img src=../../images/notes_for_software_developer/note_github/img_019.png>
 
-<img src=../images/notes_for_software_developer/note_github/img_020.png>
+<img src=../../images/notes_for_software_developer/note_github/img_020.png>
 
 Các member của team này có quyền write với các repo của team.
 
@@ -611,7 +611,7 @@ Với 3 mức: Read Access, Write Access, Admin Access Github cho phép chúng t
 
 Để mời một người dùng khác vào team, ta click vào team đó và search tên của người dùng cần tìm
 
-<img src=../images/notes_for_software_developer/note_github/img_022.png>
+<img src=../../images/notes_for_software_developer/note_github/img_022.png>
 
 Sau đó hệ thống sẽ yêu cầu bạn nhập password để xác thực, nếu thành công, một email xác nhận sẽ được gửi đến người được mời và người này sẽ xác nhận có tham gia vào tổ chức hay không.
 
@@ -633,17 +633,17 @@ Giả sử bạn đang theo dõi repo của tôi và thấy có một số chỗ
 
 Để làm việc này bạn cần vào repo đó, click vào `Issue`. Ví dụ như hình sau:
 
-<img src=../images/notes_for_software_developer/note_github/img_023.png>
+<img src=../../images/notes_for_software_developer/note_github/img_023.png>
 
 Sau đó chọn `New issue` (màu xanh) để tạo một issue mới.
 
-<img src=../images/notes_for_software_developer/note_github/img_024.png>
+<img src=../../images/notes_for_software_developer/note_github/img_024.png>
 
 Lúc này tại Repo của người quản trị sẽ thấy một Issue mới, người quản trị có thể click vào Issue này để xem, sau đó xem xét sửa đổi, comment lại. Khi sửa đổi hoàn tất thì sẽ đóng issue đó lại.
 
-<img src=../images/notes_for_software_developer/note_github/img_025.png>
+<img src=../../images/notes_for_software_developer/note_github/img_025.png>
 
-<img src=../images/notes_for_software_developer/note_github/img_026.png>
+<img src=../../images/notes_for_software_developer/note_github/img_026.png>
 
 Bằng cách tạo issue, bạn có thể đăng các câu hỏi, thắc mắc của mình cho chủ của repo đó.
 
